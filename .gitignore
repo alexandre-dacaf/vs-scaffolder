@@ -1,0 +1,39 @@
+# Node.js dependencies
+node_modules/
+
+# Build output directory
+out/
+
+# VS Code workspace settings
+.vscode/
+
+# TypeScript cache and logs
+*.tsbuildinfo
+*.log
+
+# NPM and Yarn cache
+.npm/
+.yarn/
+.pnp.*
+
+# OS-specific files
+.DS_Store       # macOS
+Thumbs.db       # Windows
+ehthumbs.db     # Windows
+*.swp           # Vim swap files
+
+# Temporary files
+.temp/
+*.tmp
+
+# Lock files
+package-lock.json
+yarn.lock
+
+# Environment variables
+.env
+.env.local
+
+# Miscellaneous
+.vscode-test/
+coverage/
