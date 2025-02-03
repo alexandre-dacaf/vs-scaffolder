@@ -3,6 +3,11 @@
     "displayName": "VS Scaffolder",
     "description": "A VS Code extension to generate project structures based on YAML templates.",
     "version": "1.0.0",
+    "publisher": "alexandre-dacaf",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/alexandre-dacaf/vs-scaffolder.git"
+      },
     "engines": {
         "vscode": "^1.96.0"
     },
@@ -42,5 +47,6 @@
     },
     "dependencies": {
         "js-yaml": "^4.1.0"
-    }
+    },
+    "license": "MIT"
 }
