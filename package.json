@@ -2,7 +2,7 @@
     "name": "vs-scaffolder",
     "displayName": "VS Scaffolder",
     "description": "A VS Code extension to generate project structures based on YAML templates.",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "publisher": "alexandre-dacaf",
     "repository": {
         "type": "git",

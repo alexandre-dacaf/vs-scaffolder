@@ -63,11 +63,9 @@ async function generateYamlFromDirectory() {
     const structure = getDirectoryStructure(targetDir);
     const yamlContent = yaml.dump(structure);
 
-    // Save the YAML file
-    const yamlFilePath = path.join(targetDir, "template.yaml");
-    fs.writeFileSync(yamlFilePath, yamlContent);
-
-    vscode.window.showInformationMessage(`YAML template generated at: ${yamlFilePath}`);
+    // Copiar para a área de transferência
+    await vscode.env.clipboard.writeText(yamlContent);
+    vscode.window.showInformationMessage("YAML template copied to clipboard!");
 }
 
 // Extension activation function
